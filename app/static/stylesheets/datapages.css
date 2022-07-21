@@ -1,0 +1,65 @@
+html, body {
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  header {
+    background-color: #f0f8ff;
+    padding-top: 13%;
+    padding-bottom: 8%;
+  }
+  
+  header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+  
+  .container {
+    box-shadow: 10px 10px 10px #30303075;
+  }
+  
+  .section {
+    background-color: #f0f8ff;
+    margin-top: 8vh;
+    padding: 2vw;
+    border-radius: 10px;
+    text-align: right;
+  }
+  
+  .section h1 {
+    text-align: center;
+  }
+  .section h6{
+    font-size: large;
+    color: black;
+  }
+  
+  .section p {
+    padding-top: 20px;
+    padding-right: 4vw;
+  }
+
+
+  footer {
+    padding-top: 50px;
+  }
+  
+  .section .col-md-3 .card-button{
+    background:transparent;
+    border:none;
+    outline:none;
+    transition: all 0.2s ease-out;
+  }
+  
+  .section .col-md-3 .card-button:hover{
+    transform: scale(1.03);
+    opacity: 70%;
+    transition: all 0.2s ease-in;
+  }
+
+  .modal-backdrop {
+    z-index: 0;
+  }

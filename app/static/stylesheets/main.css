@@ -1,0 +1,98 @@
+html, body {
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: #f0f8ff;
+  padding-top: 9%;
+  padding-bottom: 6%;
+
+}
+
+header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.container {
+  box-shadow: 10px 10px 10px #30303075;
+}
+
+.section {
+  background-color: #f0f8ff;
+  margin-top: 8vh;
+  padding: 2vw;
+  border-radius: 10px;
+  text-align: right;
+}
+
+.section h1 {
+  text-align: center;
+}
+
+.section p {
+  padding-top: 20px;
+  padding-right: 4vw;
+}
+
+.section .col-md-3 lottie-player {
+  border: 3px solid #303030;
+  background-color: #f0f8ff;
+  border-radius: 10px;
+  width: 30vh;
+  height: 30vh;
+  margin-top: 3vh;
+  padding: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: none;
+  transition: box-shadow 0.3s ease-in;
+}
+
+.section .topic {
+  position: relative;
+  z-index: 1;
+}
+
+.section .col-md-3 div {  
+  position: absolute;
+  z-index: 2;
+
+  background-color: rgba(71, 156, 231, 0);
+  color: #479ce700;
+  border-radius: 0px 0px 7px 7px;
+  width: 29.4vh;
+  height: 10%;
+
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+
+  top: 88.9%;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.section .topic a:hover + div {
+  background-color: #838688;
+  color: #f0f8ff;
+}
+
+.section .col-md-3 p {
+  margin-top: -8%;
+  padding-left: 7vh;
+  text-align: center;
+  font-size: large;
+  direction: rtl;
+}
+
+
+footer {
+  padding-top: 50px;
+}
